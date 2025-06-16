@@ -26,6 +26,21 @@
       color: #58a6ff;
     }
 
+    .hero-image {
+      background: url('https://images.unsplash.com/photo-1601933470928-c7d6f1db2b57') center center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .hero-text {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+
     section {
       padding: 60px 20px;
     }
@@ -47,6 +62,12 @@
       border: none;
     }
 
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
     footer {
       background-color: #161b22;
       color: #8b949e;
@@ -57,6 +78,12 @@
 </head>
 
 <body>
+  <div class="hero-image">
+    <div class="hero-text">
+      Welcome to the Ultimate Gaming Community
+    </div>
+  </div>
+
   <header>
     <h1>Epic Gamers Hub</h1>
     <p>Where gamers unite to dominate the digital world</p>
@@ -88,6 +115,23 @@
             <h5>Discord Hangout</h5>
             <p>Monthly casual chat, game updates, and giveaways!</p>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="text-center">
+    <div class="container">
+      <h2 class="section-title">Gallery</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437d1" alt="Gaming 1" class="img-fluid">
+        </div>
+        <div class="col-md-4">
+          <img src="https://images.unsplash.com/photo-1619983081563-430f63602747" alt="Gaming 2" class="img-fluid">
+        </div>
+        <div class="col-md-4">
+          <img src="https://images.unsplash.com/photo-1621241142827-1737f3850f0b" alt="Gaming 3" class="img-fluid">
         </div>
       </div>
     </div>
