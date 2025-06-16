@@ -1,0 +1,42 @@
+[
+    {
+        "id": "b_6834953990cf7",
+        "item_id": "i_6834952fcf289",
+        "borrower_id": "u_68348a2a5fea3",
+        "owner_id": "u_68348cb5747ad",
+        "status": "returned",
+        "request_date": "2025-05-26 16:22:17",
+        "proof_image": null,
+        "return_proof_image": null
+    },
+    {
+        "id": "b_68349590c4e6c",
+        "item_id": "i_6834952fcf289",
+        "borrower_id": "u_68348a2a5fea3",
+        "owner_id": "u_68348cb5747ad",
+        "status": "returned",
+        "request_date": "2025-05-26 16:23:44",
+        "proof_image": null,
+        "return_proof_image": null
+    },
+    {
+        "id": "b_6834968f5f44a",
+        "item_id": "i_6834952aeba6a",
+        "borrower_id": "u_68348cb5747ad",
+        "owner_id": "u_68348a2a5fea3",
+        "status": "returned",
+        "request_date": "2025-05-26 16:27:59",
+        "proof_image": null,
+        "return_proof_image": null
+    },
+    {
+        "id": "b_68349de4c79ab",
+        "item_id": "i_6834952fcf289",
+        "borrower_id": "u_68348a2a5fea3",
+        "owner_id": "u_68348cb5747ad",
+        "status": "approved",
+        "request_date": "2025-05-26 16:59:16",
+        "proof_image": "uploads\/proof_68349de4c77b17.18857962.jpg",
+        "return_proof_image": null
+    }
+]
